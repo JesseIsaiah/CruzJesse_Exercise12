@@ -1,0 +1,151 @@
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+.PicOne{
+width:49%;
+height:100%;
+background-image:url("Mustang.jpg");
+float:left;
+}
+
+.PicTwo{
+width:49%;
+height:100%;
+background-image:url("OldMustang.jpg");
+float:right;
+}
+.One{
+width:100%;
+height:20%;
+background-color:white;
+}
+
+.Pic3{
+width:100%;
+height:100%;
+background-image:url("LA.jpg");
+float:left;
+}
+.Two{
+width:100%;
+height:50%;
+background-color:white;
+}
+
+.Three{
+width:100%;
+height:30%;
+background-color:white;
+display: table;
+ clear: both;
+}
+.Pic4{
+width:30%;
+height:100%;
+background-image:url("fruits.jpg");
+float:left;
+padding: 5px;
+}
+.Pic5{
+width:30%;
+height:100%;
+background-image:url("burger.jpg");
+float:left;
+padding: 5px;
+margin-left:5px;
+}
+.Pic6{
+width:30%;
+height:100%;
+background-image:url("junk.jpg");
+float:right;
+padding: 5px;
+}
+
+
+.Four{
+width:100%;
+height:30%;
+background-color:white;
+display: table;
+ clear: both;
+}
+.Box1{
+width:23%;
+height:100%;
+background-image:url("billiard.jpg");
+float:left;
+padding: 5px;
+}
+.Box2{
+width:23%;
+height:100%;
+background-image:url("VB.jpg");
+float:left;
+padding: 5px;
+margin-left:30px;
+}
+.Box3{
+width:23%;
+height:100%;
+background-image:url("BB.jpg");
+float:left;
+padding: 5px;
+margin-left:25px;
+}.Box4{
+width:23%;
+height:100%;
+background-image:url("FB.jpg");
+float:right;
+padding: 5px;
+}
+
+
+@media screen and (max-width:1024px){
+.One{
+	width:100%;
+}
+.Two{
+	width:100%;
+}
+.Three{
+	width:100%;
+}
+.Four{
+	width:100%;
+}
+}
+
+@media screen and (max-width:768px){
+.One{
+	width:100%;
+}
+.Two{
+	width:100%;
+}
+.Three{
+	width:100%;
+}
+.Four{
+	width:100%;
+}
+}
+
+@media screen and (max-width:320px){
+.One{
+	width:33.33%;
+}
+.Two{
+	width:33.33%;
+}
+.Three{
+	width:33.33%;
+}
+.Four{
+	width:33.33%;
+}
+}
+</style>
